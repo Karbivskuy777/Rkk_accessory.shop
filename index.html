@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rkk_accessory.shop</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #2c2c2c;
+      color: #ffffff;
+    }
+    header, footer {
+      background-color: #1e1e1e;
+      padding: 20px;
+      text-align: center;
+    }
+    nav a {
+      margin: 0 15px;
+      color: #ffffff;
+      text-decoration: none;
+    }
+    .section {
+      padding: 40px;
+      text-align: center;
+    }
+    .products {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 20px;
+      margin-top: 20px;
+    }
+    .product {
+      background-color: #3a3a3a;
+      padding: 20px;
+      border-radius: 10px;
+    }
+    .contact-form {
+      max-width: 500px;
+      margin: 0 auto;
+      text-align: left;
+    }
+    .contact-form input, .contact-form textarea {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 15px;
+      border: none;
+      border-radius: 5px;
+    }
+    .contact-form button {
+      background-color: #ffffff;
+      color: #2c2c2c;
+      border: none;
+      padding: 10px 20px;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    .contact-info {
+      margin-top: 30px;
+      font-size: 1.1em;
+    }
+    .contact-info a {
+      color: #ffffff;
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Rkk_accessory.shop</h1>
+    <nav>
+      <a href="#bags">Сумки</a>
+      <a href="#backpacks">Рюкзаки</a>
+      <a href="#wallets">Гаманці</a>
+      <a href="#belts">Ремені</a>
+      <a href="#watches">Годинники</a>
+      <a href="#contact">Контакти</a>
+    </nav>
+  </header>
+
+  <section id="bags" class="section">
+    <h2>Чоловічі сумки</h2>
+    <div class="products">
+      <div class="product">Сумка 1</div>
+      <div class="product">Сумка 2</div>
+    </div>
+  </section>
+
+  <section id="backpacks" class="section">
+    <h2>Чоловічі рюкзаки</h2>
+    <div class="products">
+      <div class="product">Рюкзак 1</div>
+      <div class="product">Рюкзак 2</div>
+    </div>
+  </section>
+
+  <section id="wallets" class="section">
+    <h2>Чоловічі гаманці</h2>
+    <div class="products">
+      <div class="product">Гаманець 1</div>
+      <div class="product">Гаманець 2</div>
+    </div>
+  </section>
+
+  <section id="belts" class="section">
+    <h2>Чоловічі ремені</h2>
+    <div class="products">
+      <div class="product">Ремінь 1</div>
+      <div class="product">Ремінь 2</div>
+    </div>
+  </section>
+
+  <section id="watches" class="section">
+    <h2>Чоловічі годинники</h2>
+    <div class="products">
+      <div class="product">Годинник 1</div>
+      <div class="product">Годинник 2</div>
+    </div>
+  </section>
+
+  <section id="contact" class="section">
+    <h2>Зв'язатися з нами</h2>
+    <div class="contact-form">
+      <form>
+        <label>Ім'я:</label>
+        <input type="text" name="name" required>
+        <label>Email або Телефон:</label>
+        <input type="text" name="contact" required>
+        <label>Повідомлення:</label>
+        <textarea name="message" rows="4" required></textarea>
+        <button type="submit">Надіслати</button>
+      </form>
+
+      <div class="contact-info">
+        <p>Також ви можете написати нам у соцмережах:</p>
+        <p>Instagram: <a href="https://www.instagram.com/rkk_accessory.shop/" target="_blank">@rkk_accessory.shop</a></p>
+        <p>Telegram: <a href="https://t.me/handbags777" target="_blank">@handbags777</a></p>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p>© 2025 Rkk_accessory.shop | Instagram: @rkk_accessory.shop | Telegram: @handbags777</p>
+  </footer>
+</body>
+</html>
